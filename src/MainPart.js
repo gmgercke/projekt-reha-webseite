@@ -17,7 +17,7 @@ export default function MainPart() {
           <div class="scrolltext">
             <h2>++ NEWS +++ NEWS +++ NEWS +++ NEWS +++ NEWS ++ </h2>
             </div>
-            <div table-responsive-md>
+            <div class="table-responsive-md">
               <table>
                 <tr>
                   <td>

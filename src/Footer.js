@@ -1,11 +1,12 @@
 import React from "react";
 import "./Footer.css";
+import Table from 'react-bootstrap/Table';
 
 export default function Footer() {
     return (
         <div className="Footer">
-          <div>
-          <table class="footertable">
+          <div class="table-responsive-sm" >
+          <Table class="footertable" variant="striped">
     <thead>
         <tr>
             <td>Aktuelles</td>
@@ -66,7 +67,7 @@ export default function Footer() {
             <td></td>
         </tr>
     </tbody>
-</table>
+</Table>
           </div>
         </div>
       );

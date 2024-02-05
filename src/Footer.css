@@ -1,12 +1,17 @@
 .Footer {
-    background-color: #e6e5ea;
+    background-color: #ffffff;
     margin: 0 20%;
     padding-top: 20px;
+}
+
+.Table {
+background: #e6e5ea;
 }
 
 .footertable {
     width: 100%;
     text-align: center;
+    overflow-x: auto;
 }
 
 thead {
