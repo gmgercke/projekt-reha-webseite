@@ -1,0 +1,80 @@
+.MainPart {
+    background-color: white;
+    margin: 0 20%;
+}
+
+.scrolltext {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+   }
+.scrolltext h2 {
+    color: #da8f82;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+
+    -moz-animation: scrolltext 15s linear infinite;
+    -webkit-animation: scrolltext 15s linear infinite;
+    animation: scrolltext 15s linear infinite;
+   }
+
+.scrolltext h2:hover {
+    animation-play-state: paused;
+   }
+
+@-moz-keyframes scrolltext {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+@-webkit-keyframes scrolltext {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+@keyframes scrolltext {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }
+
+   Form {
+    margin: 100px 0;
+    width: 300px;
+    padding-left: 30px;
+   }
+
+   .form-control:focus{
+    border-color: #3092d1;
+  }
+
+   Button {
+    opacity: 0.9;
+   }
+  
+   td {
+    padding-right: 100px;
+   }
+
+   ul {
+    list-style: none;
+   }
+
+   .box {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+   }
