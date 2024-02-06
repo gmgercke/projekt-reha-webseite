@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 export default function Footer() {
     return (
         <div className="Footer">
-          <div class="table-responsive-sm" >
+          <div class="table-responsive-md" >
           <Table class="footertable" variant="striped">
     <thead>
         <tr>

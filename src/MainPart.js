@@ -15,9 +15,9 @@ export default function MainPart() {
     return (
         <div className="MainPart">
           <div class="scrolltext">
-            <h2>++ NEWS +++ NEWS +++ NEWS +++ NEWS +++ NEWS ++ </h2>
+            <h2>+++ Bahnstreik: Ab heute täglich +++ Bierfest: Fällt aus +++ Kantine: Jeden Montag Pommes +++</h2>
             </div>
-            <div class="table-responsive-md">
+            <div class="formtable">
               <table>
                 <tr>
                   <td>
@@ -32,13 +32,13 @@ export default function MainPart() {
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
       <Button variant="primary" type="submit">
-        Einloggen
+      Einloggen
       </Button>
     </Form>
     </td>
     <td>
           <h4>Neuanfang mit dem BFW</h4>
-      <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div class="beschreibung">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
     </td>
     </tr>
     </table>

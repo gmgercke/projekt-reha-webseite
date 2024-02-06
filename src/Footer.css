@@ -9,9 +9,9 @@ background: #e6e5ea;
 }
 
 .footertable {
-    width: 100%;
     text-align: center;
-    overflow-x: auto;
+    max-width: 500px;
+    min-width: 400px;
 }
 
 thead {
