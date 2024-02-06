@@ -1,4 +1,4 @@
-.NutzerMain {
+.AusbilderMain {
     background-color: white;
     margin: 0 20%;
     margin-top: 15px;
@@ -42,7 +42,10 @@ li {
     padding-bottom: 50px;
 }
 
-.stundenplan {
-    max-width: 900px;
-    min-width: 400px;
+.noten-header {
+    text-align: left;
+}
+
+.auswahl-highlight {
+    font-weight: bold;
 }
