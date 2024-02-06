@@ -1,3 +1,8 @@
+body {
+  background-color: #f0f4f7 !important;
+  margin-bottom: -30px;
+}
+
 .App {
   text-align: center;
   background-color: #f0f4f7;
@@ -8,4 +13,13 @@
   padding: 10px;
   color: #3092d1;
   text-decoration: none;
+}
+
+.darkbutton {
+  background-color: #3092d1;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  border: none;
 }

@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import Button from 'react-bootstrap/Button';
 import "./AusbilderMain.css";
+import "./darkmode.css";
 
 
 export default function AusbilderMain() {
     const [selectedKlasse, setSelectedKlasse] = useState('IT23');
-    const [selectedTeilenhmer, setSelectedTeilenhmer] = useState('Maxi Mustermensch');
+    const [selectedTeilnehmer, setSelectedTeilnehmer] = useState('Maxi Mustermensch');
     const [selectedFach, setSelectedFach] = useState('Rechnungswesen');
     const [selectedNote, setSelectedNote] = useState('1');
     return (
@@ -38,7 +40,7 @@ export default function AusbilderMain() {
       <div class="nutzernav">
         <label>
             Wähle die Klasse: 
-      <select value="selectedKlasse" onChange={e => setSelectedKlasse(e.target.value)}>
+      <select value={selectedKlasse} onChange={e => setSelectedKlasse(e.target.value)} class="selectMenu">
         <option value="IT23">Klasse IT23</option>
         <option value="IT22">Klasse IT22</option>
         <option value="Sofa">Klasse SoFa</option>
@@ -48,7 +50,7 @@ export default function AusbilderMain() {
       <div>
       <label>
       Für <span class="auswahl-highlight">{selectedKlasse}</span> existieren folgende Teilnehmer:
-      <select value="selectedTeilenhmer" onChange={e => setSelectedTeilenhmer(e.target.value)}>
+      <select value={selectedTeilnehmer} onChange={e => setSelectedTeilnehmer(e.target.value)} class="selectMenu">
         <option value="Maxi Mustermensch">Maxi Mustermensch</option>
         <option value="Fritzi Fehlzeit">Fritzi Fehlzeit</option>
         <option value="Willi Weißalles">Willi Weißalles</option>
@@ -58,8 +60,8 @@ export default function AusbilderMain() {
     <hr />
       <div>
       <label>
-      Für <span class="auswahl-highlight">{selectedTeilenhmer}</span> existieren folgende Fächer:
-      <select value="selectedFach" onChange={e => setSelectedFach(e.target.value)}>
+      Für <span class="auswahl-highlight">{selectedTeilnehmer}</span> existieren folgende Fächer:
+      <select value={selectedFach} onChange={e => setSelectedFach(e.target.value)} class="selectMenu">
         <option value="Rechnungswesen">Rechnungswesen</option>
         <option value="Softwareentwicklung">Softwareentwicklung</option>
         <option value="Vernetzte IT-Systeme">Vernetzte IT-Systeme</option>
@@ -70,7 +72,7 @@ export default function AusbilderMain() {
       <div>
       <label>
       Wähle die entsprechende Note für <span class="auswahl-highlight">{selectedFach}</span>:
-      <select value="selectedNote" onChange={e => setSelectedNote(e.target.value)}>
+      <select value={selectedNote} onChange={e => setSelectedNote(e.target.value)} class="selectMenu">
         <option value="1">1 - Sehr Gut</option>
         <option value="2">2 - Gut</option>
         <option value="3">3 - Befriedigend</option>
@@ -81,7 +83,12 @@ export default function AusbilderMain() {
     </label>
     <br></br>
     <br></br>
-    <span class="auswahl-highlight">Sie Haben die Note {selectedNote} im Fach {selectedFach} für Teilnehmer {selectedTeilenhmer} aus der Klasse {selectedKlasse} eingetragen.</span>
+    <Button variant="primary" type="submit">
+      Eintragen
+      </Button>
+    <br></br>
+    <br></br>
+    <span class="auswahl-highlight">Sie Haben die Note {selectedNote} im Fach {selectedFach} für Teilnehmer {selectedTeilnehmer} aus der Klasse {selectedKlasse} eingetragen.</span>
     </div>
       </div>
       </div>

@@ -49,3 +49,9 @@ li {
 .auswahl-highlight {
     font-weight: bold;
 }
+
+.selectMenu {
+    background: white;
+    margin-left: 15px;
+    border-radius: 15px;
+}

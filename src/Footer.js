@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Table from 'react-bootstrap/Table';
+import "./darkmode.css";
 
 export default function Footer() {
     return (

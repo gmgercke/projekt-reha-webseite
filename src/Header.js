@@ -2,6 +2,7 @@ import React from "react";
 import { slide as Menu } from 'react-burger-menu';
 import "./Header.css";
 import logo from "./bfw-logo.png";
+import "./darkmode.css";
 
 export default function Header() {
     return (

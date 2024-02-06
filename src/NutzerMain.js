@@ -1,6 +1,7 @@
 import React from "react";
 import "./NutzerMain.css";
 import plan from "./Stundenplan.png";
+import "./darkmode.css";
 
 
 export default function NutzerMain() {

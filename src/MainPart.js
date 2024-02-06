@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./MainPart.css";
+import "./darkmode.css";
 
 const images = [
   "https://us.images.westend61.de/0000855271pw/smiling-students-watching-teacher-in-adult-education-classroom-CAIF12852.jpg",

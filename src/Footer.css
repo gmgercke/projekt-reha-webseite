@@ -5,7 +5,7 @@
 }
 
 .Table {
-background: #e6e5ea;
+background-color: #e6e5ea;
 }
 
 .footertable {
@@ -17,7 +17,6 @@ background: #e6e5ea;
 thead {
     font-weight: bold;
     font-size: 24px;
-    padding-bottom: 20px;
 }
 
 td {

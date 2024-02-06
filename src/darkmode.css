@@ -1,0 +1,81 @@
+.dark {
+
+    body {
+        background-color: #404041 !important;
+    }
+
+    .App {
+        text-align: center;
+        background-color: #404041;
+        color: white;
+        transition-timing-function: ease-in-out;
+        transition: 1s;
+      }
+    .topbar {
+        background-color: #6f6f70;
+
+    }
+
+    .bm-menu {
+        background: #bababb;
+        transition-timing-function: ease-in-out;
+        transition: 1s;
+      }
+
+    .scrolltext h2 {
+        color: #da8f82;
+        text-shadow: 1px 1px 0px rgb(216, 215, 215);
+    }
+
+    .MainPart {
+        background-color: #6f6f70;
+    }
+
+    .Footer {
+        background-color: #404041;
+        transition-timing-function: ease-in-out;
+        transition: 1s;
+    }
+
+    td, thead {
+        background: #6f6f70 !important;
+        color: white;
+        transition-timing-function: ease-in-out;
+        transition: 1s;
+    }
+
+    .nutzer {
+        background-color: #404041;
+        transition-timing-function: ease-in-out;
+        transition: 1s;
+    
+    }
+    
+    .NutzerMain {
+        background-color: #6f6f70;
+
+    }
+
+    .uebersicht {
+        background-color: #404041;
+        transition-timing-function: ease-in-out;
+        transition: 1s;
+    }
+
+
+    .Ausbilder {
+        background-color: #404041;
+        transition-timing-function: ease-in-out;
+        transition: 1s;
+    
+    }
+
+    .AusbilderMain {
+        background-color: #6f6f70;
+    }
+
+  }
+.light {
+    transition-timing-function: ease-in-out;
+    transition: 1s;
+  }
