@@ -14,7 +14,7 @@
     color: #da8f82;
     text-shadow: 1px 1px 0px rgb(104, 103, 103);
     position: absolute;
-    width: 100%;
+    width: 1400px;
     height: 100%;
     margin: 0;
     line-height: 40px;
@@ -24,9 +24,9 @@
     -webkit-transform:translateX(100%);	
     transform:translateX(100%);
 
-    -moz-animation: scrolltext 15s linear infinite;
-    -webkit-animation: scrolltext 15s linear infinite;
-    animation: scrolltext 15s linear infinite;
+    -moz-animation: scrolltext 17s linear infinite;
+    -webkit-animation: scrolltext 17s linear infinite;
+    animation: scrolltext 17s linear infinite;
    }
 
 .scrolltext h2:hover {
