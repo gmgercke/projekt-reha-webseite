@@ -1,17 +1,15 @@
 import React from "react";
 import Header from "./Header";
-import NutzerMain from "./NutzerMain";
+import MainPart from "./MainPart";
 import Footer from "./Footer";
-import "./Nutzer.css";
 
 
-export default function Nutzer() {
+export default function MainPage() {
     return (
-        <div className="Nutzer">
+      <div className="MainPage">
         <Header />
-        <NutzerMain />
+        <MainPart />
         <Footer />
         </div>
-
     );
 }

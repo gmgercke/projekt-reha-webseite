@@ -2,3 +2,10 @@
   text-align: center;
   background-color: #f0f4f7;
 }
+
+.NavLink {
+  margin: 0 auto;
+  padding: 10px;
+  color: #3092d1;
+  text-decoration: none;
+}
