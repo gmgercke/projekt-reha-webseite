@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainPage from "./MainPage";
-import Nutzer from "./Nutzer";
+import Nutzer from "./nutzer";
 import "./App.css";
 
 
