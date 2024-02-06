@@ -2,12 +2,12 @@ import React from "react";
 import Header from "./Header";
 import NutzerMain from "./NutzerMain";
 import Footer from "./Footer";
-import "./Nutzer.css";
+import "./nutzer.css";
 
 
-export default function Nutzer() {
+export default function nutzer() {
     return (
-        <div className="Nutzer">
+        <div className="nutzer">
         <Header />
         <NutzerMain />
         <Footer />

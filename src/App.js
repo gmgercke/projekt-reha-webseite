@@ -13,7 +13,7 @@ export default function App() {
       <Navbar />
   <Routes>
   <Route path="/MainPage" element={<MainPage />} />
-    <Route path="/Nutzer" element={<Nutzer />} />
+    <Route path="/nutzer" element={<Nutzer />} />
     </Routes>  
   </Router>
     </div>
@@ -22,7 +22,7 @@ export default function App() {
     return (
       <nav>
         <Link className={"NavLink"} to="/MainPage">MainPage</Link>
-        <Link className={"NavLink"} to="/Nutzer">Nutzer</Link>
+        <Link className={"NavLink"} to="/nutzer">Nutzer</Link>
       </nav>
      )
   }
