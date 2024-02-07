@@ -7,7 +7,6 @@ import Ausbilder from "./Ausbilder";
 import "./App.css";
 import "./darkmode.css";
 
-
 export default function App() {
 
   const [theme, setTheme] = useState('light');
