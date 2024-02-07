@@ -12,6 +12,7 @@ export default function Header() {
       <table>
         <tr>
           <td>
+            <div class="img-bg">
       <img
         src={logo}
         class="logo d-none d-sm-block"
@@ -19,6 +20,7 @@ export default function Header() {
         title="Logo"
         height="150"
       />
+      </div>
     </td>
     <td>
       <Menu isOpen={false} width={ '300px' } noOverlay left>

@@ -2,6 +2,8 @@
     background-color: #ffffff;
     margin: 0 10%;
     padding-top: 20px;
+    border-top: 1px solid #f0f4f7;
+    border-radius: 15px;
 }
 
 .Table {
@@ -21,4 +23,10 @@ thead {
 
 td {
     padding-top: 15px;
+}
+
+.footnote {
+    padding: 20px;
+    background-color: #f0f4f7;
+    color: rgba(0, 0, 0, 0.5);
 }

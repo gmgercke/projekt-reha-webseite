@@ -16,6 +16,11 @@
 
     }
 
+    .img-bg {
+        background-color: #404041;
+
+      }
+
     .bm-menu {
         background: #bababb;
         transition-timing-function: ease-in-out;
@@ -32,9 +37,10 @@
     }
 
     .Footer {
-        background-color: #404041;
+        background-color: #6f6f70;
         transition-timing-function: ease-in-out;
         transition: 1s;
+        border-top: 1px solid grey;
     }
 
     td, thead {
@@ -72,6 +78,17 @@
 
     .AusbilderMain {
         background-color: #6f6f70;
+    }
+
+    .selectMenu {
+        background: #bababb;
+
+    }
+
+    .footnote {
+        padding: 20px;
+        background-color: #404041;
+        color: rgba(255, 255, 255, 0.5);
     }
 
   }

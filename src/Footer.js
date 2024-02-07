@@ -70,6 +70,7 @@ export default function Footer() {
     </tbody>
 </Table>
           </div>
+          <div class="footnote">😺 Diese Webseite wurde angefertigt von <a href="https://github.com/gmgercke/projekt-reha-webseite">Gesa-Maria Gercke</a> 😺</div>
         </div>
       );
 

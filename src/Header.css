@@ -2,8 +2,15 @@
     margin: 0 10%;
 }
 
+.img-bg {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .topbar {
     background-color: white;
+    border-radius: 15px;
+    padding-bottom: 15px;
 }
 
 nav {
